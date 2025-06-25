@@ -1,0 +1,53 @@
+﻿@page
+@model LoginModel
+
+@{
+    ViewData["Title"] = "Log in";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container my-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow-sm">
+                <div class="card-header bg-dark text-white">
+                    <h4 class="mb-0">@ViewData["Title"]</h4>
+                </div>
+                <div class="card-body">
+                    <form id="account" method="post">
+                        <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                        <div class="mb-3">
+                            <label asp-for="Input.Email" class="form-label text-black"></label>
+                            <input asp-for="Input.Email" class="form-control border border-warning" placeholder="name@example.com" />
+                            <span asp-validation-for="Input.Email" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Input.Password" class="form-label text-black"></label>
+                            <input asp-for="Input.Password" type="password" class="form-control border border-warning" placeholder="password" />
+                            <span asp-validation-for="Input.Password" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-check mb-3">
+                            <input asp-for="Input.RememberMe" class="form-check-input" id="rememberMe" />
+                            <label asp-for="Input.RememberMe" class="form-check-label text-black" for="rememberMe"></label>
+                        </div>
+
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-warning fw-bold text-white">Log in</button>
+                        </div>
+
+                        <div class="mt-4 text-center">
+                            <p><a asp-page="./ForgotPassword" class="text-black text-decoration-none">Forgot your password?</a></p>
+                            <p><a asp-page="./Register" asp-route-returnUrl="@Model.ReturnUrl" class="text-black text-decoration-none">Register as a new user</a></p>
+                            <p><a asp-page="./ResendEmailConfirmation" class="text-black text-decoration-none">Resend email confirmation</a></p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

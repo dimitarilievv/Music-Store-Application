@@ -1,0 +1,39 @@
+﻿@model IEnumerable<MusicStore.Domain.Domain_Models.Label>
+
+@{
+    ViewData["Title"] = "Labels";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container my-5">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2>All Labels</h2>
+        <a asp-action="Create" class="btn btn-dark">+ Create New</a>
+    </div>
+
+    <table class="table table-bordered table-hover shadow-sm">
+        <thead class="table-dark">
+            <tr>
+                <th>Name</th>
+                <th>Country</th>
+                <th>Founded Year</th>
+                <th style="width: 220px;">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var label in Model)
+            {
+                <tr>
+                    <td class="align-middle">@label.Name</td>
+                    <td class="align-middle">@label.Country</td>
+                    <td class="align-middle">@label.FoundedYear</td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@label.Id" class="btn btn-sm btn-warning me-2">Edit</a>
+                        <a asp-action="Details" asp-route-id="@label.Id" class="btn btn-sm border-warning btn-black me-2">Details</a>
+                        <a asp-action="Delete" asp-route-id="@label.Id" class="btn btn-sm btn-dark">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

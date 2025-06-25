@@ -1,0 +1,24 @@
+﻿@model MusicStore.Domain.DTO.AddToCartDTO
+
+<div class="container mt-5" style="max-width: 400px;">
+    <form method="post" asp-action="AddAlbumToCart" novalidate>
+
+        <input type="hidden" asp-for="SelectedAlbumId" />
+
+        <div class="mb-3">
+            <label asp-for="SelectedAlbumTitle" class="form-label"></label>
+            <input asp-for="SelectedAlbumTitle" class="form-control" disabled />
+            <span asp-validation-for="SelectedAlbumTitle" class="text-danger small"></span>
+        </div>
+
+        <div class="mb-4">
+            <label asp-for="Quantity" class="form-label"></label>
+            <input asp-for="Quantity" type="number" min="1" class="form-control" />
+            <span asp-validation-for="Quantity" class="text-danger small"></span>
+        </div>
+
+        <button type="submit" class="btn btn-warning w-100 fw-semibold shadow-sm">
+            <i class="bi bi-cart-plus-fill me-2"></i> Add To Cart
+        </button>
+    </form>
+</div>

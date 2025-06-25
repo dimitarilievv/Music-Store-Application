@@ -1,0 +1,163 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dimit\\Desktop\\Music Store Application\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F9413754-D71F-4E62-B43A-8A36F219E9A2}|EShop.Web\\EShop.Web.csproj|c:\\users\\dimit\\desktop\\music store application\\eshop.web\\views\\products\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9413754-D71F-4E62-B43A-8A36F219E9A2}|EShop.Web\\EShop.Web.csproj|solutionrelative:eshop.web\\views\\products\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9413754-D71F-4E62-B43A-8A36F219E9A2}|EShop.Web\\EShop.Web.csproj|c:\\users\\dimit\\desktop\\music store application\\eshop.web\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9413754-D71F-4E62-B43A-8A36F219E9A2}|EShop.Web\\EShop.Web.csproj|solutionrelative:eshop.web\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9413754-D71F-4E62-B43A-8A36F219E9A2}|EShop.Web\\EShop.Web.csproj|c:\\users\\dimit\\desktop\\music store application\\eshop.web\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9413754-D71F-4E62-B43A-8A36F219E9A2}|EShop.Web\\EShop.Web.csproj|solutionrelative:eshop.web\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9413754-D71F-4E62-B43A-8A36F219E9A2}|EShop.Web\\EShop.Web.csproj|c:\\users\\dimit\\desktop\\music store application\\eshop.web\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9413754-D71F-4E62-B43A-8A36F219E9A2}|EShop.Web\\EShop.Web.csproj|solutionrelative:eshop.web\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9413754-D71F-4E62-B43A-8A36F219E9A2}|EShop.Web\\EShop.Web.csproj|c:\\users\\dimit\\desktop\\music store application\\eshop.web\\areas\\identity\\pages\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9413754-D71F-4E62-B43A-8A36F219E9A2}|EShop.Web\\EShop.Web.csproj|solutionrelative:eshop.web\\areas\\identity\\pages\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9413754-D71F-4E62-B43A-8A36F219E9A2}|EShop.Web\\EShop.Web.csproj|c:\\users\\dimit\\desktop\\music store application\\eshop.web\\controllers\\api\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9413754-D71F-4E62-B43A-8A36F219E9A2}|EShop.Web\\EShop.Web.csproj|solutionrelative:eshop.web\\controllers\\api\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9413754-D71F-4E62-B43A-8A36F219E9A2}|EShop.Web\\EShop.Web.csproj|c:\\users\\dimit\\desktop\\music store application\\eshop.web\\controllers\\shoppingcartscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9413754-D71F-4E62-B43A-8A36F219E9A2}|EShop.Web\\EShop.Web.csproj|solutionrelative:eshop.web\\controllers\\shoppingcartscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\dimit\\Desktop\\Music Store Application\\EShop.Web\\Views\\Products\\Delete.cshtml",
+              "RelativeDocumentMoniker": "EShop.Web\\Views\\Products\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\dimit\\Desktop\\Music Store Application\\EShop.Web\\Views\\Products\\Delete.cshtml",
+              "RelativeToolTip": "EShop.Web\\Views\\Products\\Delete.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAIwDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T11:56:25.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\dimit\\Desktop\\Music Store Application\\EShop.Web\\Views\\Products\\Index.cshtml",
+              "RelativeDocumentMoniker": "EShop.Web\\Views\\Products\\Index.cshtml",
+              "ToolTip": "C:\\Users\\dimit\\Desktop\\Music Store Application\\EShop.Web\\Views\\Products\\Index.cshtml",
+              "RelativeToolTip": "EShop.Web\\Views\\Products\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T11:53:27.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\dimit\\Desktop\\Music Store Application\\EShop.Web\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "EShop.Web\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\dimit\\Desktop\\Music Store Application\\EShop.Web\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "EShop.Web\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T11:52:27.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\dimit\\Desktop\\Music Store Application\\EShop.Web\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "EShop.Web\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\dimit\\Desktop\\Music Store Application\\EShop.Web\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "EShop.Web\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T11:52:25.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\dimit\\Desktop\\Music Store Application\\EShop.Web\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "EShop.Web\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\dimit\\Desktop\\Music Store Application\\EShop.Web\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "EShop.Web\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T11:36:23.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\dimit\\Desktop\\Music Store Application\\EShop.Web\\Controllers\\API\\AdminController.cs",
+              "RelativeDocumentMoniker": "EShop.Web\\Controllers\\API\\AdminController.cs",
+              "ToolTip": "C:\\Users\\dimit\\Desktop\\Music Store Application\\EShop.Web\\Controllers\\API\\AdminController.cs",
+              "RelativeToolTip": "EShop.Web\\Controllers\\API\\AdminController.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAmwCUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T11:30:10.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ShoppingCartsController.cs",
+              "DocumentMoniker": "C:\\Users\\dimit\\Desktop\\Music Store Application\\EShop.Web\\Controllers\\ShoppingCartsController.cs",
+              "RelativeDocumentMoniker": "EShop.Web\\Controllers\\ShoppingCartsController.cs",
+              "ToolTip": "C:\\Users\\dimit\\Desktop\\Music Store Application\\EShop.Web\\Controllers\\ShoppingCartsController.cs",
+              "RelativeToolTip": "EShop.Web\\Controllers\\ShoppingCartsController.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAiwDkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T11:28:09.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+﻿@model MusicStore.Domain.Domain_Models.Artist
+
+@{
+    ViewData["Title"] = "Artist Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container my-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow-sm">
+                <div class="card-header bg-black text-white">
+                    <h4 class="mb-0">Artist Details</h4>
+                </div>
+                <div class="card-body">
+
+                    <dl class="row">
+                        <dt class="col-sm-4">Name</dt>
+                        <dd class="col-sm-8">@Model.FullName</dd>
+
+                        <dt class="col-sm-4">Bio</dt>
+                        <dd class="col-sm-8">@Model.Bio</dd>
+
+                        <dt class="col-sm-4">Birth Date</dt>
+                        <dd class="col-sm-8">@Model.BirthDate?.ToString("yyyy-MM-dd")</dd>
+
+                        <dt class="col-sm-4">Nationality</dt>
+                        <dd class="col-sm-8">@Model.Nationality</dd>
+
+                        <dt class="col-sm-4">Label</dt>
+                        <dd class="col-sm-8">
+                            @(Model.Label != null ? Model.Label.Name : "No Label")
+                        </dd>
+
+                        <dt class="col-sm-4">Website</dt>
+                        <dd class="col-sm-8">
+                            @if (!string.IsNullOrEmpty(Model.WebsiteUrl))
+                            {
+                                <a href="@Model.WebsiteUrl" target="_blank">@Model.WebsiteUrl</a>
+                            }
+                        </dd>
+
+                        <dt class="col-sm-4">Image</dt>
+                        <dd class="col-sm-8">
+                            @if (!string.IsNullOrEmpty(Model.ImageUrl))
+                            {
+                                <img src="@Model.ImageUrl" class="img-thumbnail" style="max-height: 180px;" alt="Artist Image" />
+                            }
+                        </dd>
+                    </dl>
+
+                    <div class="mt-4 d-flex justify-content-between">
+                        <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">Edit</a>
+                        <a asp-action="Index" class="btn btn-outline-secondary">← Back to List</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

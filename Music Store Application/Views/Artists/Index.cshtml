@@ -1,0 +1,31 @@
+﻿@model IEnumerable<MusicStore.Domain.Domain_Models.Artist>
+
+@{
+    ViewData["Title"] = "Artists";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container my-5">
+    <h2 class="mb-4">Artists</h2>
+    <a class="btn btn-dark mb-4" asp-action="Create">Add New Artist</a>
+
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        @foreach (var artist in Model)
+        {
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+                    <img src="@artist.ImageUrl" class="card-img-top" alt="@artist.FullName" style="height: 250px; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">@artist.FullName</h5>
+                        <p class="card-text text-truncate">@artist.Bio</p>
+                    </div>
+                    <div class="card-footer text-center">
+                        <a class="btn btn-warning btn-sm" asp-action="Details" asp-route-id="@artist.Id">Details</a>
+                        <a class="btn btn-outline-warning btn-sm" asp-action="Edit" asp-route-id="@artist.Id">Edit</a>
+                        <a class="btn btn-sm btn-dark" asp-action="Delete" asp-route-id="@artist.Id">Delete</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

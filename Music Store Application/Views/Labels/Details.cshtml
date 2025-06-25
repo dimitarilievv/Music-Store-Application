@@ -1,0 +1,35 @@
+﻿@model MusicStore.Domain.Domain_Models.Label
+
+@{
+    ViewData["Title"] = "Label Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container my-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow-sm">
+                <div class="card-header bg-dark text-white">
+                    <h4 class="mb-0">Label Details</h4>
+                </div>
+                <div class="card-body">
+                    <dl class="row mb-0">
+                        <dt class="col-sm-4">Name</dt>
+                        <dd class="col-sm-8">@Model.Name</dd>
+
+                        <dt class="col-sm-4">Country</dt>
+                        <dd class="col-sm-8">@Model.Country</dd>
+
+                        <dt class="col-sm-4">Founded Year</dt>
+                        <dd class="col-sm-8">@Model.FoundedYear</dd>
+                    </dl>
+                </div>
+            </div>
+
+            <div class="mt-3 d-flex justify-content-between">
+                <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">Edit</a>
+                <a asp-action="Index" class="btn btn-outline-secondary">← Back to List</a>
+            </div>
+        </div>
+    </div>
+</div>
